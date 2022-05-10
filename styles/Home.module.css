@@ -10,6 +10,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
 }
 
 .footer {
@@ -131,4 +132,10 @@
 }
 .imgWrap{
   padding: 2rem;
+}
+
+@media (max-width:400px){
+  .navItems{
+    padding: 1rem;
+  }
 }

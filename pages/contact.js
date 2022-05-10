@@ -1,14 +1,14 @@
 import React, { useState } from 'react'
 
 import styles from '../styles/Contact.module.css'
-export default function contact() {
+export default function Contact() {
   const [Name, setName] = useState('');
   const [Email, setEmail] = useState('');
   const [Phone, setPhone] = useState('');
   const [Mess, setMess] = useState('');
 
   const handleSubmit = (e) => {
-    console.log(Name, Phone, Email, Mess);
+    // console.log(Name, Phone, Email, Mess);
     const data = {Name, Phone, Email, Mess};
 
     fetch('http://localhost:3000/api/postContact', {
@@ -20,7 +20,7 @@ export default function contact() {
     })
       .then(response => response.text())
       .then(data => {
-        console.log('Success:', data);
+        // console.log('Success:', data);
         alert("Thx for submitting");
         setEmail('');
         setMess('');

@@ -3,6 +3,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 // import Dummy from '../components/Dummy'
 import styles from '../styles/Home.module.css'
+import Blog from './blog'
+
 
 export default function Home() {
   return (
@@ -23,7 +25,7 @@ export default function Home() {
       <main className={styles.main}>
         {/* <Dummy/> */}
         {/* <span className="myspan dummy">hello</span> */}
-       
+
         <h1 className={styles.title}>
           Hunting App by Coder
         </h1>
@@ -34,7 +36,7 @@ export default function Home() {
         <p className={styles.description}>
           Blog Post
         </p>
-
+        {/* <Blog /> */}
         <div className={styles.blogs}>
           <div className={styles.blogItem}>
             <h1>How to learn JavaScript in 2022</h1>
