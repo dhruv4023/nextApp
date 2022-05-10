@@ -1,0 +1,43 @@
+.form-group,.ibox {
+    font-weight: bold;
+    border-radius: 0.3rem;
+    padding: 0.1rem;
+    margin: 0.1rem;
+}
+.ibox{
+    border: 2px solid black;
+    background: transparent;
+    padding: 0.2rem;
+    text-align: center;
+}
+
+.formSection {
+    padding: 2rem;
+    /* border: 2px solid black; */
+}
+#FormTitle{
+    padding: 0.3rem;
+    font-size: 2rem;
+    text-decoration: underline;
+    text-align: center;
+}
+.formPart{
+    background-color: rgba(125, 247, 11, 0.719);
+    margin: auto;
+    border-radius: 2rem;
+    border: 5px solid rgb(73, 54, 238);
+    width: max-content;
+    align-items: center;text-align: center;
+}
+.btn{
+    background-color: rgba(0, 0, 0, 0.801);
+    color: whitesmoke;
+}
+.btn:hover{
+    color: aqua;
+
+
+}
+.h1{
+    text-align: center;
+}

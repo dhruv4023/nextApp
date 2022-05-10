@@ -114,3 +114,21 @@
     flex-direction: column;
   }
 }
+
+.navLst{
+  list-style: none;
+  justify-content: center;
+  display: flex;
+}
+.navItems{
+  padding: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+.myImg{
+  border-radius: 1rem;
+  border: 2px solid black;
+}
+.imgWrap{
+  padding: 2rem;
+}
